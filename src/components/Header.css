@@ -1,0 +1,13 @@
+.navbar>svg {
+    margin-right: 20px;
+}
+
+.navbar>.nav-item {
+    text-decoration: none;
+}
+
+#login__btn {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    cursor: pointer;
+}
