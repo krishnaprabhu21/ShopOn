@@ -1,3 +1,22 @@
-.accordion>.card-header>svg {
+.accordion>.card {
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+.accordion>.card:first-child {
+    border-top: 0px !important;
+}
+
+.accordion>.card .card-header {
     background-color: transparent !important;
+}
+
+.accordion>.card .card-header>button {
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.accordion>.card .card-header>svg {
+    font-size: 16px !important;
 }

@@ -7,8 +7,6 @@ import ReactStars from "react-rating-stars-component";
 const Product = (props) => {
     const { product } = props;
 
-    console.log("product", product);
-
     return (
         <div>
             <Link to={`/product/${product.id}`}>

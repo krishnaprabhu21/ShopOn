@@ -1,3 +1,7 @@
+.navbar {
+    margin-bottom: 10px;
+}
+
 .navbar>svg {
     margin-right: 20px;
 }
@@ -6,8 +10,35 @@
     text-decoration: none;
 }
 
+.form-inline>svg {
+    margin-right: 20px;
+    ;
+}
+
+.form-inline>input {
+    border-right: 0px !important;
+    border-left: 0px !important;
+    border-top: 0px !important;
+    border-bottom: 2px solid yellow !important;
+}
+
 #login__btn {
     background-color: transparent !important;
     border-color: transparent !important;
     cursor: pointer;
+}
+
+.active-yellow-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid yellow;
+    box-shadow: 0 1px 0 0 yellow;
+}
+
+.active-yellow input.form-control[type=text] {
+    border-bottom: 1px solid yellow;
+    box-shadow: 0 1px 0 0 yellow;
+}
+
+.active-yellow .fa,
+.active-yellow-2 .fa {
+    color: yellow;
 }
